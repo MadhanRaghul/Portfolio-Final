@@ -163,6 +163,17 @@ a{
     color: transparent;
 }
 
+/* ----- */
+.super{
+    letter-spacing: 0.05em;
+    scale: 1.1;
+    background: linear-gradient(90deg, blueviolet, blueviolet);
+    text-shadow: 1.5px -1.5px rgba(255, 255, 255, 0.904);
+    background-clip: text;
+    color: transparent;
+}
+
+
 .introNavbar{
     animation: introNavbar 1s forwards;
 }
