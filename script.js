@@ -132,6 +132,36 @@ window.addEventListener('scroll', () => {
         box3.classList.add('introCard3')
     }
 
+    /* SCROLL NAV */
+
+    if (scrolled >= 650 && scrolled <= 1100) {
+        one.classList.add('super')
+    }
+    else{
+        one.classList.remove('super')
+    }
+
+    if (scrolled >= 1100 && scrolled <= 2000) {
+        two.classList.add('super')
+    }
+    else{
+        two.classList.remove('super')
+    }
+
+    if (scrolled >= 2000 && scrolled <= 3300) {
+        three.classList.add('super')
+    }
+    else{
+        three.classList.remove('super')
+    }
+    
+    if (scrolled >= 3300) {
+        four.classList.add('super')
+    }
+    else{
+        four.classList.remove('super')
+    }
+
 })
 
 
