@@ -50,6 +50,7 @@ a{
 
 #profile img{
     border-radius: 50%;
+    display: none;
 }
 
 #testy{
